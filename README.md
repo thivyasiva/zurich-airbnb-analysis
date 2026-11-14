@@ -2,6 +2,8 @@
 
 Solo project by Thivya Siva — Toronto Metropolitan University, Bachelor of Commerce, Business Technology Management (minor in Computer Science), expected April 2027.
 
+Completed September 2024 — TRSM Bootcamps Power BI Challenge, 26 September 2024 (Power BI Badge 2.0).
+
 An interactive **Power BI** dashboard examining Zurich Airbnb accommodation prices, neighbourhoods, room types and estimated costs.
 
 ## What the dashboard contains
