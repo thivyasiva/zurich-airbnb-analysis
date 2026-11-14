@@ -1,0 +1,42 @@
+-- DAX measures — Zurich Airbnb Analysis
+-- Create each measure in Power BI Desktop (Modelling > New measure)
+-- Table name: Listings
+
+Total Listings =
+COUNTROWS ( Listings )
+
+Average Price =
+AVERAGE ( Listings[price] )
+
+Average Review Score =
+AVERAGE ( Listings[review_score] )
+
+Average Availability =
+AVERAGE ( Listings[availability_365] )
+
+Average Price Entire Home =
+CALCULATE (
+    [Average Price],
+    Listings[room_type] = "Entire home/apt"
+)
+
+Average Price Private Room =
+CALCULATE (
+    [Average Price],
+    Listings[room_type] = "Private room"
+)
+
+Estimated Monthly Cost =
+SUMX ( Listings, Listings[price] * 30 )
+
+Estimated Weekly Cost =
+SUMX ( Listings, Listings[price] * 7 )
+
+Listings With Reviews =
+CALCULATE (
+    [Total Listings],
+    Listings[number_of_reviews] > 0
+)
+
+Price vs Overall Average =
+[Average Price] - CALCULATE ( [Average Price], ALL ( Listings ) )

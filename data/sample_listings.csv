@@ -1,0 +1,16 @@
+id,name,neighbourhood,room_type,price,minimum_nights,number_of_reviews,review_score,availability_365
+1,Cozy studio near the lake,Enge,Entire home/apt,145,2,48,4.8,210
+2,Bright flat in the old town,Altstadt,Entire home/apt,210,3,112,4.9,180
+3,Private room near the station,Aussersihl,Private room,78,1,23,4.6,300
+4,Modern apartment with balcony,Wiedikon,Entire home/apt,165,2,67,4.7,240
+5,Quiet room in a shared flat,District 4,Shared room,45,1,9,4.2,320
+6,Stylish loft downtown,Altstadt,Entire home/apt,285,4,89,4.9,150
+7,Comfortable room near the park,Enge,Private room,92,2,31,4.5,275
+8,Family apartment near the river,Wipkingen,Entire home/apt,178,3,54,4.8,200
+9,Small studio for two travellers,Aussersihl,Entire home/apt,120,1,15,4.4,260
+10,Hotel-style room in the centre,Altstadt,Hotel room,195,1,140,4.7,190
+11,Spacious flat with a view,Seefeld,Entire home/apt,240,3,76,4.8,170
+12,Budget private room,Wiedikon,Private room,65,1,18,4.3,310
+13,Charming apartment old town,Altstadt,Entire home/apt,198,2,95,4.9,185
+14,Room in a quiet house,Enge,Private room,85,2,27,4.6,290
+15,Designer apartment near the lake,Seefeld,Entire home/apt,310,5,61,4.9,140
